@@ -1,0 +1,25 @@
+.header {
+    background-color: bisque;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    border: 2px solid rgb(32, 32, 32);
+    padding: 1rem;
+}
+
+.footer {
+    background-color: bisque;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    padding: 1rem;
+}
